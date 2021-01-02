@@ -16,6 +16,13 @@ public class MusicPlayer {
     public MusicPlayer() {
     }
 
+    public void doMyInit(){
+        System.out.println("MusicPlayer initialisation");
+    }
+
+    public void doMyDestroy(){
+        System.out.println("MusicPlayer destroy");
+    }
     public void setMusicList(List<Music> musicList) {
         this.musicList = musicList;
     }
